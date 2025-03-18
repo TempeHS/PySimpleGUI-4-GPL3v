@@ -1,6 +1,7 @@
 #!/usr/bin/env python
-import PySimpleGUI as sg
 import sys
+sys.path.append("../lib")
+import PySimpleGUI as sg
 
 """
    Big chart of tkinter colors shown as swatches.

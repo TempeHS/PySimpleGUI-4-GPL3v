@@ -1,0 +1,14 @@
+pygame
+pandas
+pillow
+matplotlib
+pyfiglet
+PyMuPDF
+opencv-python
+notify_py
+py-midi
+python-vlc
+numpy
+pymunk
+gTTS
+pyglet

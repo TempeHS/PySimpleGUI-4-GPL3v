@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
 import PySimpleGUI as sg

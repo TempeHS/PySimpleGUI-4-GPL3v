@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import requests
 import PySimpleGUI as sg
 import datetime

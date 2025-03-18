@@ -23,7 +23,8 @@
     Copyright 2021 PySimpleGUI.org
 """
 
-
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import time
 

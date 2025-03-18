@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import threading
 import time
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 """

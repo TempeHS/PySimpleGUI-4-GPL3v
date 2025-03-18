@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import cv2
 import numpy as np

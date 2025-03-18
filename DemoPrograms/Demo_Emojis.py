@@ -9,6 +9,8 @@
 """
 
 
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 layout = [[sg.Text('The PySimpleGUI Helpers', font='_ 20')],

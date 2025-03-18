@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 """
     Demo - 2 simultaneous windows using read_all_window

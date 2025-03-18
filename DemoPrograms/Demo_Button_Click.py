@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 import sys
+sys.path.append("../lib")
+import sys
 import PySimpleGUI as sg
 
 if not sys.platform.startswith('win'):

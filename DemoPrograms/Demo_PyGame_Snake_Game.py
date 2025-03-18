@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import pygame
 import PySimpleGUI as sg
 import os

@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 from json import (load as jsonload, dump as jsondump)
 from os import path

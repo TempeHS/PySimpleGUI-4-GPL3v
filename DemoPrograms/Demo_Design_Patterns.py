@@ -10,6 +10,8 @@ These are the accepted design patterns that cover the two primary use cases
 # -----------------------------------#
 # DESIGN PATTERN 1 - One-shot Window #
 # -----------------------------------#
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 layout = [[ sg.Text('My Oneshot') ],

@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import cv2, PySimpleGUI as sg
 
 window = sg.Window('Demo Application - OpenCV Integration', [[sg.Image(key='-I-')], ], location=(800, 400))

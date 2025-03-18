@@ -1,6 +1,7 @@
 # !/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+import sys
+sys.path.append("../lib")
 from sys import exit as exit
 from threading import Thread
 import PySimpleGUI as sg

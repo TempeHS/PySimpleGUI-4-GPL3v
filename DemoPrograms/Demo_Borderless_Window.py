@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 # Turn off padding in order to get a really tight looking layout.

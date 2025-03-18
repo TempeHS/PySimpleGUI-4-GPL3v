@@ -1,5 +1,6 @@
 import os
 import sys
+sys.path.append("../lib")
 import random
 import math
 import time

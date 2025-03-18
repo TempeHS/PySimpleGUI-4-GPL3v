@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 # Testing async form, see if can have a slider

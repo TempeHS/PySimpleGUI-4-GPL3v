@@ -1,6 +1,6 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
-# import PySimpleGUIWx as sg
-# import PySimpleGUIQt as sg
 import time
 
 """

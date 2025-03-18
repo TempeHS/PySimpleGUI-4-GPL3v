@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 """
     tkinter and Qt do not "activate" buttons by pressing the ENTER key with the button highlighted / in focus

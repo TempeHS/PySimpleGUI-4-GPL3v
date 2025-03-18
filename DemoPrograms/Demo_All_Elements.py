@@ -14,6 +14,8 @@
     Copyright 2021, 2022, 2023 PySimpleGUI
 """
 
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 def make_window(theme):

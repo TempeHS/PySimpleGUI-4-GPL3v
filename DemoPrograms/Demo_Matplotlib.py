@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import sys
+sys.path.append("../lib")
 from matplotlib.ticker import NullFormatter  # useful for `logit` scale
 import matplotlib.pyplot as plt
 import numpy as np

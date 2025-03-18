@@ -1,7 +1,9 @@
-import os.path
 import sys
+sys.path.append("../lib")
+import os.path
 import mmap, re
 import warnings
+
 
 import PySimpleGUI as sg
 
@@ -89,7 +91,6 @@ def get_demo_path():
     :rtype: str
     """
     demo_path = sg.user_settings_get_entry('-demos folder-', os.path.dirname(__file__))
-
     return demo_path
 
 

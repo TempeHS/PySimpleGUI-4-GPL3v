@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import sys
+sys.path.append("../lib")
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, FigureCanvasAgg
 import matplotlib.backends.tkagg as tkagg
 import matplotlib.pyplot as plt

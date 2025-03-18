@@ -1,6 +1,6 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
-# import PySimpleGUIWx as sg
-# import PySimpleGUIQt as sg
 from PIL import Image
 import base64, io
 from time import time

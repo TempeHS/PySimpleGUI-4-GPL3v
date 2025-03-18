@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 import matplotlib.pyplot as plt

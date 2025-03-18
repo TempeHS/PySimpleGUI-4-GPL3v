@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg, random
 import numpy as np
 from typing import List, Any, Union, Tuple, Dict

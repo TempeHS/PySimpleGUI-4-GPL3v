@@ -1,5 +1,7 @@
-import PySimpleGUI as sg
 import sys
+sys.path.append("../lib")
+import PySimpleGUI as sg
+
 """
     Compare 2 .py files using PyCharm's compare utility
     If you use PyCharm, then you've likely used their awesome

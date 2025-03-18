@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 """
     Demo showing how to remove the titlebar and replace with your own

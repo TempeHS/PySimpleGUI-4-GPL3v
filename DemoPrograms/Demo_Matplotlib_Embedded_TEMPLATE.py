@@ -1,6 +1,6 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
-# import PySimpleGUIQt as sg
-# import PySimpleGUIWeb as sg
 
 import numpy as np
 from matplotlib.backends.backend_tkagg import FigureCanvasAgg

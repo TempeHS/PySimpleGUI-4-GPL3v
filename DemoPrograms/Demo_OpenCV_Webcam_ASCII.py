@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import cv2
 from PIL import Image
 import numpy as np

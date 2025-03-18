@@ -7,7 +7,8 @@
     http://www.PySimpleGUI.org
     Copyright 2022 PySimpleGUI
 """
-
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import sys
 

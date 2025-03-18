@@ -8,6 +8,8 @@
     Copyright 2021 PySimpleGUI
 """
 
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 sg.set_options(font='_ 18')

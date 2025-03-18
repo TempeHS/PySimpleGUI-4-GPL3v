@@ -1,4 +1,6 @@
 # Base64 Encoder - encodes a folder of PNG files and creates a .py file with definitions
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import os
 import base64

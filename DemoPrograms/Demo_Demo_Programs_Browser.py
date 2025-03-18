@@ -1,8 +1,9 @@
 import os.path
 import subprocess
-import sys
 import mmap, re
 import warnings
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 """

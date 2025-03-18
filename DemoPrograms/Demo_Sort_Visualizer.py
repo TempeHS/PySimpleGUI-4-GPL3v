@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import random
 # ------- Sort visualizer. Displays bar chart representing list items -------

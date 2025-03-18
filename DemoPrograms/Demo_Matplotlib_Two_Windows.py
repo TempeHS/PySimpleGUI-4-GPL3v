@@ -1,4 +1,6 @@
 from matplotlib import use
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 # import PySimpleGUIQt as sg; use('qt5agg')
 import matplotlib.pyplot as plt

@@ -1,6 +1,8 @@
 # !/usr/bin/env python
 # Based on work by - Siddharth Natamai
 # At the moment, this source file runs on TWO of the 4 PySimpleGUI ports with a third one coming soon (Qt).
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import random
 

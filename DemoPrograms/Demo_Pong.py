@@ -24,7 +24,8 @@
 
     Copyright 2021 PySimpleGUI, Jay Nabonne
 """
-
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import random
 import datetime

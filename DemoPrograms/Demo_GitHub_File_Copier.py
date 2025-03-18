@@ -2,6 +2,7 @@ import os.path
 import shutil
 import subprocess
 import sys
+sys.path.append("../lib")
 
 import PySimpleGUI as sg
 

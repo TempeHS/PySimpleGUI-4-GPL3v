@@ -2,6 +2,8 @@
 from matplotlib.backends.backend_tkagg import FigureCanvasAgg
 import matplotlib.backends.tkagg as tkagg
 import matplotlib.pyplot as plt
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import tkinter as tk
 

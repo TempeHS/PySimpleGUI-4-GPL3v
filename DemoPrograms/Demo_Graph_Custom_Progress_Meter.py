@@ -14,7 +14,8 @@
     Copyright 2022 PySimpleGUI
 """
 
-
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 # Settings for you to modify are the size of the element, the circle width & color and the font for the % complete

@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 
 # Usage of icons as base64 string and toolbar

@@ -1,4 +1,6 @@
 # import PySimpleGUIWeb as sg
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import pymunk
 import random

@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import sys
+sys.path.append("../lib")
 import PIL
 from PIL import Image
 from sys import exit

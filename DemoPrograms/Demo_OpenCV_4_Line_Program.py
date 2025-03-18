@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 import cv2, PySimpleGUI as sg
 # Make the window
 window, cap = sg.Window('Demo Application - OpenCV Integration', [[sg.Image(filename='', key='image')], ], location=(800, 400)), cv2.VideoCapture(0)

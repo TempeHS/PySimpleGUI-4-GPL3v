@@ -1,4 +1,6 @@
 import pyglet
+import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
 import os
 

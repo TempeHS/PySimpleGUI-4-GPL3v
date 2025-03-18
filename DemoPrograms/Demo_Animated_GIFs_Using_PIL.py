@@ -1,3 +1,5 @@
+import sys
+sys.path.append("../lib")
 from PIL import Image, ImageTk, ImageSequence
 import PySimpleGUI as sg
 

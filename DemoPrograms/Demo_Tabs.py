@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 import sys
+sys.path.append("../lib")
 import PySimpleGUI as sg
-# import PySimpleGUIWeb as sg
+
 
 # Usage of Tabs in PSG
 #

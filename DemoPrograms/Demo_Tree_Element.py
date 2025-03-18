@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import sys
+sys.path.append("../lib")
 import os
 import PySimpleGUI as sg
 

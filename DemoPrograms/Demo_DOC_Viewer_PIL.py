@@ -30,6 +30,7 @@ pixmaps and page re-visits will re-use a once-created display list.
 
 """
 import sys
+sys.path.append("../lib")
 import fitz
 import sys
 import PySimpleGUI as sg
